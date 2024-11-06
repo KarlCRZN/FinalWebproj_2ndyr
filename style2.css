@@ -1,0 +1,104 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('IMGBACK.png');
+  background-size: cover;
+  background-position: center center;
+}
+
+#contactForm {
+  padding: 20px;
+  font-size: 20px;
+  margin-right: 15px;
+  margin-left: 15px;
+  text-align: center;
+  float: left;
+  margin-bottom: 100px;
+  background-color: rgba(255, 255, 255, .5);
+  border-radius: 10px;
+  box-shadow: 0 15px 15px black;
+  width: 400px;
+  height: 300px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+h1 {
+  margin-bottom: 0px;
+}
+
+.index-h1 {
+  padding: 1em;
+  text-align: center;
+  font-family: cursive;
+  color: black;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {   
+  padding: 1em;
+  text-align: center;
+  font-family: cursive;
+  color: lavender;
+  font-size: 40px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black; 
+  font-weight: bold;
+  font-family: cursive;
+  font-size: 30px;  
+  text-align: center;
+}
+
+nav a:hover {
+  color: skyblue;
+}
